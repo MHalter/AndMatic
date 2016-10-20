@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="CCU Adress">
+        <EditTextPreference
+            android:defaultValue="http://192.168.178.38:2001/"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Url"
+            android:key="ccuAddress" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Virtual button 1">
+        <EditTextPreference
+            android:defaultValue="Alles aus VK1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Name"
+            android:key="btn1Name" />
+        <EditTextPreference
+            android:defaultValue="BidCoS-RF:2"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Homematic address"
+            android:key="btn1Adress" />
+        <EditTextPreference
+            android:defaultValue="PRESS_SHORT"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Press type"
+            android:key="btn1PressType" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Virtual button 2">
+        <EditTextPreference
+            android:defaultValue="Alles an VK1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Name"
+            android:key="btn2Name" />
+        <EditTextPreference
+            android:defaultValue="BidCoS-RF:2"
+            android:selectAllOnFocus="true"
+            android:title="Homematic address"
+            android:key="btn2Adress"
+            android:singleLine="true" />
+        <EditTextPreference
+            android:defaultValue="PRESS_LONG"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Press type"
+            android:key="btn2PressType" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Virtual button 3">
+        <EditTextPreference
+            android:defaultValue=""
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Name"
+            android:key="btn3Name" />
+        <EditTextPreference
+            android:defaultValue=""
+            android:selectAllOnFocus="true"
+            android:title="Homematic address"
+            android:key="btn3Adress"
+            android:singleLine="true" />
+        <EditTextPreference
+            android:defaultValue="PRESS_LONG"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Press type"
+            android:key="btn3PressType" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Virtual button 4">
+        <EditTextPreference
+            android:defaultValue=""
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Name"
+            android:key="btn4Name" />
+        <EditTextPreference
+            android:defaultValue=""
+            android:selectAllOnFocus="true"
+            android:title="Homematic address"
+            android:key="btn4Adress"
+            android:singleLine="true" />
+        <EditTextPreference
+            android:defaultValue="PRESS_LONG"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Press type"
+            android:key="btn4PressType" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Virtual button 5">
+        <EditTextPreference
+            android:defaultValue=""
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Name"
+            android:key="btn5Name" />
+        <EditTextPreference
+            android:defaultValue=""
+            android:selectAllOnFocus="true"
+            android:title="Homematic address"
+            android:key="btn5Adress"
+            android:singleLine="true" />
+        <EditTextPreference
+            android:defaultValue="PRESS_LONG"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Press type"
+            android:key="btn5PressType" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Virtual button 6">
+        <EditTextPreference
+            android:defaultValue=""
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Name"
+            android:key="btn6Name" />
+        <EditTextPreference
+            android:defaultValue=""
+            android:selectAllOnFocus="true"
+            android:title="Homematic address"
+            android:key="btn6Adress"
+            android:singleLine="true" />
+        <EditTextPreference
+            android:defaultValue="PRESS_LONG"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Press type"
+            android:key="btn6PressType" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
